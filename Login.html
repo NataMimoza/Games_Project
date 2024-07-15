@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>"Games Project_Login"</title>
+    <link rel="shortcut icon" href="./Images/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/login.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <nav class="header-inner">
+                    <a>
+                        <img src="Images/logo.png" alt="" width="55" height="58">
+                    </a>
+                    <ul class="nav">
+                        <li>
+                            <a class="nav__link-active" href="./index.html">About</a>
+                        </li>
+                        <li>
+                            <a href="Cards.html">Games</a>
+                        </li>
+                        <li>
+                            <a href="Calculator.html">Calculator</a>
+                        </li>
+                        <li>
+                            <a href="./Login.html">Login</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <section class="login-inner">
+                    <h1 class="login-title">Login page</h1>
+                    <form class="login-box" action="result.html" target="_blank">
+                        <div class="form-box">
+                            <label class="form-title" for="email">Email</label>
+                            <input class="form-input" type="email" id="email" name="email"
+                                placeholder="Enter your email address">
+                        </div>
+                        <div class="form-box">
+                            <label class="form-title" for="password">Password</label>
+                            <input class="form-input" type="password" id="password" name="password"
+                                placeholder="Enter your password">
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="verification" name="checkbox">
+                            <label class="checkbox-view" for="verification">I’m not a robot</label>
+                        </div>
+                        <div class="errors-view" id="errors-container">
+                        </div>
+                        <div class="form-box">
+                            <button class="form-button" id="submit_button" type="button" value="Login"> Login
+                            </button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="social-box">
+                        <div>
+                            <a href="https://uk-ua.facebook.com/" target="_blank"><img src="./Images/facebook.png"
+                                    alt="facebook">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.linkedin.com/in/nataliayur/" target="_blank"><img
+                                    src="./Images/linked.png" alt="linkedIn">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img src="./Images/insta.png" alt="instagram">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="phrase-box">
+                        <p class="phrase">
+                            Made with 💗 on course 'Frontend for beginners' from Masters Academy in 2023, by Natalia</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/login.js"></script>
+</body>
+
+</html>

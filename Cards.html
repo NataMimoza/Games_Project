@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>"Games Project_Cards"</title>
+    <link rel="shortcut icon" href="./Images/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/cards.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <nav class="header-inner">
+                    <a>
+                        <img src="Images/logo.png" alt="" width="55" height="58">
+                    </a>
+                    <ul class="nav">
+                        <li>
+                            <a class="nav__link-active" href="./index.html">About</a>
+                        </li>
+                        <li>
+                            <a href="Cards.html">Games</a>
+                        </li>
+                        <li>
+                            <a href="Calculator.html">Calculator</a>
+                        </li>
+                        <li>
+                            <a href="./Login.html">Login</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="filters">
+            <div class="container">
+                <div class="menu-btn" type="button">
+                    <span class="btn-line"></span>
+                    <span class="btn-line"></span>
+                    <span class="btn-line"></span>
+                    <span class="btn-line"></span>
+                </div>
+                <div class="filters-menu">
+                    <select class="drop-down" name="drop-down">
+                        <option value="Genre" selected>
+                            Genre
+                        </option>
+                        <option value="Sport">Sport</option>
+                        <option value="Shooter">Shooter</option>
+                        <option value="Racing">Racing</option>
+                        <option value="Horror">Horror</option>
+                    </select>
+                    <div class="radio-btn">
+                        <div class="radio">
+                            <input class="radio-platform" type="radio" name="option" id="platform">
+                            <label for="platform">Platform</label>
+                        </div>
+                        <div class="radio">
+                            <input class="radio-games" type="radio" name="option" id="games">
+                            <label for="games">Online games</label>
+                        </div>
+                    </div>
+                    <div class="checkbox-btn">
+                        <div class="checkbox">
+                            <input class="checkbox-new" type="checkbox" name="age" data-filter-box="new">
+                            <span>New</span>
+                        </div>
+                        <div class="checkbox">
+                            <input class="checkbox-old" type="checkbox" name="age" data-filter-box="old">
+                            <span>Old</span>
+                        </div>
+                    </div>
+                    <div class="search-box">
+                        <img class="search-field" src="./Images/Search.svg" width="19" height="19" alt="">
+                        <input class="search" type="text" name="search" placeholder="Search">
+                        <button class="apply" type="button">
+                            Apply
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main class="main">
+            <div class="container">
+                <h1 class="title">Study project "Games"</h1>
+                <div class="spinner-box" id="spinner-form">
+                    <div class="spinner">
+                    </div>
+                </div>
+                <section class="cards" data-type="cards">
+
+                    <template data-type="card-template">
+                        <article class="card">
+                            <div class="card-top">
+                                <div>
+                                    <img class="image" data-card-img />
+                                </div>
+                                <div class="card-inner">
+                                    <h3 class="card-title" data-card-title></h3>
+                                    <p class="card-description" data-card-info></p>
+                                </div>
+
+                            </div>
+                            <div class="card-info">
+                                <ul class="card-info-list">
+                                    <li>
+                                        <p class="font" data-card-genre>Genre:</p>
+                                    </li>
+                                    <li>
+                                        <p class="font" data-card-platform>Platform:</p>
+                                    </li>
+
+                                    <li>
+                                        <p class="font" data-card-publisher>Publisher:</p>
+                                    </li>
+
+                                    <li>
+                                        <p class="font" data-card-developer>Developer:</p>
+                                    </li>
+                                    <li>
+                                        <span class="font" data-card-release>Release_date:</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                    </template>
+                </section>
+                <div>
+                    <button class="btn-top">
+                        <svg class="arrow" aria-hidden="true" focusable="false" height="1.2em" viewBox="0 0 512 512">
+                            <path fill="#fff"
+                                d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z">
+                            </path>
+                        </svg>
+                        <p class="text">Back to top</p>
+                    </button>
+                </div>
+
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="social-box">
+                        <div>
+                            <a href="https://uk-ua.facebook.com/" target="_blank"><img src="./Images/facebook.png"
+                                    alt="facebook">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.linkedin.com/in/nataliayur/" target="_blank"><img
+                                    src="./Images/linked.png" alt="linkedIn">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img src="./Images/insta.png" alt="instagram">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="phrase-box">
+                        <p class="phrase">
+                            Made with 💗 on course 'Frontend for beginners' from Masters Academy in 2023, by Natalia</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/cards.js">
+    </script>
+</body>
+
+</html>
