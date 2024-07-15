@@ -358,25 +358,12 @@ ul {
   position: fixed;
   border: none;
   bottom: -200px;
-  left: 90%;
+  left: 88%;
   opacity: .7;
 }
 
 .btn-top.active {
   bottom: 200px;
-}
-
-.text {
-  font-size: 10px;
-  width: 100px;
-  position: absolute;
-  color: var(--black-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  bottom: -18px;
-  opacity: 0;
-  transition-duration: .7s;
 }
 
 .btn-top:hover .text {
