@@ -151,7 +151,6 @@ ul {
 /* -------------Media ---------------- */
 
 @media (max-width: 500px) {
-
   .nav {
     gap: 20px;
   }
