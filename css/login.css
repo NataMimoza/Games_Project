@@ -53,6 +53,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   padding: 9px 0;
+  cursor: pointer;
 }
 
 .nav {
