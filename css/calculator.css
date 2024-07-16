@@ -167,6 +167,11 @@ ul {
     gap: 15px;
   }
 
+  .operation-box, .button-box {
+    border-radius: 15px;
+    width: 100px;
+  }
+
   .phrase {
     font-size: 18px;
   }
